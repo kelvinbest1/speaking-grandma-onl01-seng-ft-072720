@@ -1,12 +1,10 @@
-def speak_to_grandma(phrase)  
-   Check if it is false that string is all upper case
-  if (phrase == phrase.upcase) == false
-
-     return this string if condition is false                
-     return "HUH?! SPEAK UP, SONNY!"        
-      else 
-     return this string if condition is true 
-      return "NO, NOT SINCE 1938!"
+def speak_to_grandma(phrase)
+  if phrase == "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN!"
+  elsif phrase == phrase.upcase
+    return "NO, NOT SINCE 1938!"
+  else
+    return "HUH?! SPEAK UP, SONNY!"
   end
 end
 
