@@ -3,10 +3,10 @@ def speak_to_grandma(phrase)
   if (phrase == phrase.upcase) == false
 
      return this string if condition is false                
-     puts "HUH?! SPEAK UP, SONNY!"        
+     return "HUH?! SPEAK UP, SONNY!"        
       else 
      return this string if condition is true 
-      puts "NO, NOT SINCE 1938!"
+      return "NO, NOT SINCE 1938!"
   end
 end
 
